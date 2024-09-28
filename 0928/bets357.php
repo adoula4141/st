@@ -79,7 +79,7 @@ return [
 		*/
 		'favorites' => '1, 2',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'win inter' => '1, 2, 5',
+		'win inter' => '2, 5',
 		'allValues' => '',
 		'bets' => [
 		],
@@ -92,7 +92,7 @@ return [
 		'favorites' => '2, 6, 8',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'win inter' => '6',
-		'allValues' => '3, 4, 5, 6, 7',
+		'allValues' => '3, 4, 5, 6, 7, 8',
 		'bets' => [
 		],
 		'total bets' => 0,

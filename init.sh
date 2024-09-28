@@ -1,4 +1,4 @@
-index=28;
+index=29;
 for f in *; do
     if [ -d "$f" ] && [ $f != "archive" ]; then
         rm -Rf $f;
