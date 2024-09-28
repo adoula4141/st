@@ -6,6 +6,7 @@ return [
 		Race 1
 		*/
 		'favorites' => '(F) 1, 5, 7',
+		'place(end-favorites , $100)' => '7',
 		'places' => '7',
 		'sures' => '7',
 	],
@@ -20,6 +21,7 @@ return [
 		Race 3
 		*/
 		'favorites' => '(F) 2, 3, 5, 7',
+		'place(end-favorites , $100)' => '7',
 		'places' => '7',
 	],
 	'4' => [
@@ -51,6 +53,7 @@ return [
 		Race 8
 		*/
 		'favorites' => '(F) 2, 6, 8',
+		'place(end-favorites , $100)' => '8',
 		'places' => '8',
 		'sures' => '8',
 	],
@@ -59,9 +62,10 @@ return [
 		Race 9
 		*/
 		'favorites' => '(F) 1, 2, 6, 8',
+		'place(end-favorites , $100)' => '8',
+		'super sure bet' => 'super sure place 8',
 		'places' => '8',
 		'super sures' => '8',
-		'super sure bet' => 'super sure place 8',
 	],
 	'10' => [
 		/**
