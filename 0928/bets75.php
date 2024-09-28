@@ -7,7 +7,7 @@ return [
 		*/
 		'favorites' => '1, 5, 7',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'win inter' => '6',
+		'win inter' => '1',
 		'allValues' => '',
 		'bets' => [
 		],
@@ -32,7 +32,7 @@ return [
 		'favorites' => '2, 3, 5, 7',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'win inter' => '7, 9',
-		'allValues' => '1, 3, 6, 7',
+		'allValues' => '',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -55,8 +55,8 @@ return [
 		*/
 		'favorites' => '2, 7, 12',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
-		'win inter' => '4',
-		'allValues' => '',
+		'win inter' => '',
+		'allValues' => '1, 3, 4, 6, 7, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -79,7 +79,7 @@ return [
 		*/
 		'favorites' => '1, 2',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'win inter' => '1, 2, 5',
+		'win inter' => '1, 2',
 		'allValues' => '1, 2, 4, 5',
 		'bets' => [
 		],
@@ -92,7 +92,7 @@ return [
 		'favorites' => '2, 6, 8',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'win inter' => '6',
-		'allValues' => '3, 4, 5, 6, 7, 8',
+		'allValues' => '3, 4, 5, 6, 7',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -115,7 +115,7 @@ return [
 		*/
 		'favorites' => '2, 3',
 		'runners' => '2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13',
-		'win inter' => '10',
+		'win inter' => '',
 		'allValues' => '',
 		'bets' => [
 		],

@@ -115,7 +115,7 @@ return [
 		*/
 		'favorites' => '2, 3',
 		'runners' => '2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13',
-		'win inter' => '10',
+		'win inter' => '',
 		'allValues' => '',
 		'bets' => [
 		],
