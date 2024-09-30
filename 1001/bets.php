@@ -98,13 +98,13 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '8, 9, 11',
+		'favorites' => '8, 9, 11, 14',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '5, 7',
-			'qin' => '5, 7, 11',
-			'trio' => '4, 5, 7, 11, 13',//count trio: 5
-			'diff' => '4, 11, 13',//count diff: 3
+			'win' => '5, 6, 7',
+			'qin' => '5, 6, 7, 11',
+			'trio' => '4, 5, 6, 7, 11, 12, 13',//count trio: 7
+			'diff' => '4, 11, 12, 13',//count diff: 4
 			'inter' => '11',//count inter: 1
 		],
 		'win inter' => '',
