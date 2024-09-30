@@ -52,7 +52,7 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 2, 7, 8, 9',
+		'favorites' => '(F) 2, 8, 9',
 		'places' => '9',
 	],
 	'9' => [

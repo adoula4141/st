@@ -5,12 +5,12 @@ return [
 		/**
 		Race 1
 		*/
-		'favorites' => '4, 5, 6',
+		'favorites' => '4, 5, 6, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'suggestions' => [
-			'win' => '1, 4, 11',
-			'qin' => '1, 2, 4, 5, 6, 11',
-			'trio' => '1, 2, 4, 5, 6, 7, 11',//count trio: 7
+			'win' => '1, 4, 10, 11',
+			'qin' => '1, 2, 4, 5, 6, 10, 11',
+			'trio' => '1, 2, 4, 5, 6, 7, 10, 11',//count trio: 8
 			'diff' => '2, 5, 6, 7',//count diff: 4
 			'inter' => '5, 6',//count inter: 2
 		],
