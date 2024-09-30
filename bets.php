@@ -101,7 +101,7 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
     $diff = array_intersect($runners, array_diff($suggestions["trio"], $suggestions["win"]));
     if(!empty($diff)) $racetext .= "\t\t\t'diff' => '" . implode(", ", $diff) . "',//count diff: " . count($diff) . "\n";
     $inter = array_intersect($favorites, $diff);
-    $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',\n";
+    $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',//count inter: " . count($inter) . "\n";
     $racetext .= "\t\t],\n";
     if(isset($winAmount)){
         $racetext .= "\t\t'win amount' => " . $winAmount . ",\n"; 
