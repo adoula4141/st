@@ -79,12 +79,13 @@ return [
 		/**
 		Race 5
 		*/
-		'favorites' => '11',
+		'favorites' => '1, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
+			'win' => '1',
+			'qin' => '1, 7',
+			'trio' => '1, 2, 7',//count trio: 3
+			'diff' => '2, 7',//count diff: 2
 			'inter' => '',//count inter: 0
 		],
 		'win inter' => '1, 3',
