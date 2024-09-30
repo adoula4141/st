@@ -79,7 +79,7 @@ return [
 			2 => 26.5,
 			5 => 10.1,
 		],
-		'win inter' => '2, 4, 9',
+		'win inter' => '2, 4, 5, 9',
 		'allValues' => '1, 3, 6, 7',
 		'bets' => [
 		],
@@ -148,10 +148,10 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '8, 4, 1, 9',
 		'suggestions' => [
-			'win' => '4, 6, 8, 11',
+			'win' => '4, 6, 8, 9, 11',
 			'qin' => '1, 3, 4, 6, 7, 8, 9, 11',
 			'trio' => '1, 2, 3, 4, 6, 7, 8, 9, 10, 11',//count trio: 10
-			'diff' => '1, 2, 3, 7, 9, 10',//count diff: 6
+			'diff' => '1, 2, 3, 7, 10',//count diff: 5
 			'inter' => '1, 3',//count inter: 2
 		],
 		'win amount' => 49,

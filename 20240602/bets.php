@@ -274,7 +274,7 @@ return [
 			4 => 70.5,
 			12 => 31.5,
 		],
-		'win inter' => '10',
+		'win inter' => '3, 10',
 		'allValues' => '',
 		'bets' => [
 		],

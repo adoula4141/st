@@ -203,11 +203,11 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '9, 2, 8, 7',
 		'suggestions' => [
-			'win' => '6, 9',
-			'qin' => '2, 6, 8, 9',
-			'trio' => '2, 3, 6, 8, 9',//count trio: 5
-			'diff' => '2, 3, 8',//count diff: 3
-			'inter' => '2',//count inter: 1
+			'win' => '2, 6, 9',
+			'qin' => '2, 5, 6, 8, 9',
+			'trio' => '1, 2, 3, 5, 6, 8, 9',//count trio: 7
+			'diff' => '1, 3, 5, 8',//count diff: 4
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 58,
 		'qin amount' => 99.5,
@@ -217,7 +217,7 @@ return [
 			2 => 15,
 			8 => 22,
 		],
-		'win inter' => '6',
+		'win inter' => '2, 6',
 		'allValues' => '3, 4, 5, 6, 7, 8',
 		'bets' => [
 		],
@@ -231,11 +231,11 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13',
 		'official win' => '1, 2, 11, 9',
 		'suggestions' => [
-			'win' => '1, 2, 4',
-			'qin' => '1, 2, 4, 5, 6',
-			'trio' => '1, 2, 3, 4, 5, 6, 8, 9, 11',//count trio: 9
-			'diff' => '3, 5, 6, 8, 9, 11',//count diff: 6
-			'inter' => '11',//count inter: 1
+			'win' => '1, 2, 4, 11',
+			'qin' => '1, 2, 4, 5, 6, 11',
+			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 11',//count trio: 10
+			'diff' => '3, 5, 6, 7, 8, 9',//count diff: 6
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 77,
 		'qin amount' => 215.5,

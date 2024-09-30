@@ -93,10 +93,10 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'official win' => '6, 1, 2, 5',
 		'suggestions' => [
-			'win' => '4, 6',
-			'qin' => '1, 4, 5, 6, 7',
-			'trio' => '1, 2, 4, 5, 6, 7',//count trio: 6
-			'diff' => '1, 2, 5, 7',//count diff: 4
+			'win' => '4, 6, 11',
+			'qin' => '1, 4, 5, 6, 7, 11',
+			'trio' => '1, 2, 4, 5, 6, 7, 10, 11',//count trio: 8
+			'diff' => '1, 2, 5, 7, 10',//count diff: 5
 			'inter' => '',//count inter: 0
 		],
 		'win amount' => 92.5,
