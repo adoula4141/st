@@ -13,17 +13,6 @@ $step = "bets$revision";
 $history = include(__DIR__ . DIRECTORY_SEPARATOR . "history$revision.php");
 $favhistory = include(__DIR__ . DIRECTORY_SEPARATOR . "favhistory.php");
 
-function factorial($n){
-    if($n <= 0) return 1;
-    $fact = 1;
-    for($i = 1; $i <= $n; $i++) $fact *= $i;
-    return $fact;
-}
-function combination($p, $n){
-    if($n < $p) return 0;
-    return factorial($n) / (factorial($p) * factorial($n - $p));
-}
-
 $total = 0;
 $totalMajorPlaceF = 0;
 $totalMajorPlaceW = 0;
