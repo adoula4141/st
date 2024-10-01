@@ -179,8 +179,6 @@ return [
 		'favorites' => '1',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '3, 10, 2, 1',
-			'diff' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',//count diff: 11
-			'inter' => '1',//count inter: 1
 		'suggestions' => [
 			'win' => '',
 			'qin' => '',

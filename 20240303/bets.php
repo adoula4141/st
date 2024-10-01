@@ -64,8 +64,6 @@ return [
 		'favorites' => '6, 7, 9',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'official win' => '3, 1, 6, 10',
-			'diff' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',//count diff: 10
-			'inter' => '6, 7, 9',//count inter: 3
 		'suggestions' => [
 			'win' => '',
 			'qin' => '',
