@@ -86,7 +86,7 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
         $diff = array_diff($runners, $suggestions["trio"]);
         if(!empty($diff)) $racetext .= "\t\t\t'diff' => '" . implode(", ", $diff) . "',//count diff: " . count($diff) . "\n";
         $inter = array_intersect($favorites, $diff);
-      //  $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',//count inter: " . count($inter) . "\n";
+        $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',//count inter: " . count($inter) . "\n";
     }
     $racetext .= "\t\t'suggestions' => [\n";
     $racetext .= "\t\t\t'win' => '" . implode(", ", array_intersect($runners, $suggestions["win"])) . "',\n";
