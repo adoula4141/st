@@ -35,6 +35,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '2, 14, 11, 3',
 			'diff' => '3, 5, 8, 12, 13, 14',//count diff: 6
+			'inter' => '14',//count inter: 1
 		'suggestions' => [
 			'win' => '6, 9, 10',
 			'qin' => '4, 6, 7, 9, 10, 11',
@@ -88,6 +89,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '12, 1, 10, 11',
 			'diff' => '3, 5, 8, 9, 10, 11, 13, 14',//count diff: 8
+			'inter' => '10',//count inter: 1
 		'suggestions' => [
 			'win' => '1, 12',
 			'qin' => '1, 2, 4, 12',
@@ -115,6 +117,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '2, 10, 6, 7',
 			'diff' => '5, 7, 9, 11',//count diff: 4
+			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '1, 3, 4',
 			'qin' => '1, 3, 4, 6, 10',
@@ -142,6 +145,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '1, 2, 3, 10',
 			'diff' => '1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14',//count diff: 11
+			'inter' => '1, 12',//count inter: 2
 		'suggestions' => [
 			'win' => '11',
 			'qin' => '7, 11',
@@ -169,6 +173,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '7, 1, 11, 4',
 			'diff' => '1, 12, 13, 14',//count diff: 4
+			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 3, 6, 7, 11',
 			'qin' => '2, 3, 4, 5, 6, 7, 8, 11',
@@ -196,6 +201,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '9, 2, 8, 7',
 			'diff' => '4, 7, 9, 10, 11',//count diff: 5
+			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 6',
 			'qin' => '2, 5, 6, 8',
@@ -223,6 +229,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13',
 		'official win' => '1, 2, 11, 9',
 			'diff' => '10, 12, 13',//count diff: 3
+			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '1, 2, 4, 11',
 			'qin' => '1, 2, 4, 5, 6, 11',
@@ -250,6 +257,7 @@ return [
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '8, 2, 5, 6',
 			'diff' => '1, 3, 4, 6, 10, 11, 14',//count diff: 7
+			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 7, 13',
 			'qin' => '2, 5, 7, 8, 13',
