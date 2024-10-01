@@ -82,11 +82,12 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
     if(isset($officialWin)){
         $racetext .= "\t\t'official win' => '" . implode(", ", $officialWin) . "',\n"; 
     }
-    $diff = array_diff($runners, $suggestions["trio"]);
-    if(!empty($diff)) $racetext .= "\t\t\t'diff' => '" . implode(", ", $diff) . "',//count diff: " . count($diff) . "\n";
-    $inter = array_intersect($favorites, $diff);
-    $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',//count inter: " . count($inter) . "\n";
-    
+    if(!empty($suggestions["trio"])){
+        $diff = array_diff($runners, $suggestions["trio"]);
+        if(!empty($diff)) $racetext .= "\t\t\t'diff' => '" . implode(", ", $diff) . "',//count diff: " . count($diff) . "\n";
+        $inter = array_intersect($favorites, $diff);
+        $racetext .= "\t\t\t'inter' => '" . implode(", ", $inter) . "',//count inter: " . count($inter) . "\n";
+    }
     $racetext .= "\t\t'suggestions' => [\n";
     $racetext .= "\t\t\t'win' => '" . implode(", ", array_intersect($runners, $suggestions["win"])) . "',\n";
     $racetext .= "\t\t\t'qin' => '" . implode(", ", array_intersect($runners, $suggestions["qin"])) . "',\n";
