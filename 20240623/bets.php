@@ -24,7 +24,7 @@ return [
 			1 => 12.5,
 		],
 		'win inter' => '',
-		'allValues' => '',
+		'allValues' => '5, 7, 9, 10',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -215,7 +215,7 @@ return [
 			4 => 16,
 		],
 		'win inter' => '',
-		'allValues' => '4, 5, 6, 7',
+		'allValues' => '2, 4, 5, 6, 7',
 		'bets' => [
 		],
 		'total bets' => 0,

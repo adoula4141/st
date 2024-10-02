@@ -24,7 +24,7 @@ return [
 			2 => 22,
 		],
 		'win inter' => '',
-		'allValues' => '',
+		'allValues' => '5, 7, 9, 10',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -67,7 +67,7 @@ return [
 			'diff' => '1, 6, 10, 12, 13, 14',//count diff: 6
 			'inter' => '1',//count inter: 1
 		'suggestions' => [
-			'win' => '2, 7, 9',
+			'win' => '2, 7, 8, 9',
 			'qin' => '2, 3, 4, 7, 8, 9',
 			'trio' => '2, 3, 4, 5, 7, 8, 9, 11',//count trio: 8
 		],
@@ -220,7 +220,7 @@ return [
 			7 => 17,
 		],
 		'win inter' => '',
-		'allValues' => '3, 4, 5, 6, 7, 8',
+		'allValues' => '2, 3, 4, 5, 6, 7, 8, 9',
 		'bets' => [
 		],
 		'total bets' => 0,
