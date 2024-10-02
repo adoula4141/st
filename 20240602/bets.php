@@ -8,12 +8,12 @@ return [
 		'favorites' => '7, 9, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'official win' => '7, 9, 6, 1',
-			'diff' => '4, 6, 10, 11, 12',//count diff: 5
-			'inter' => '10',//count inter: 1
 		'suggestions' => [
 			'win' => '3, 5',
 			'qin' => '2, 3, 5, 9',
 			'trio' => '1, 2, 3, 5, 7, 8, 9',//count trio: 7
+			'diff' => '4, 6, 10, 11, 12',//count diff: 5
+			'inter' => '10',//count inter: 1
 		],
 		'win amount' => 40,
 		'qin amount' => 73.5,
@@ -36,12 +36,12 @@ return [
 		'favorites' => '2, 3',
 		'runners' => '1, 2, 3, 4, 5, 6',
 		'official win' => '6, 5, 2, 3',
-			'diff' => '5',//count diff: 1
-			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 6',
 			'qin' => '1, 2, 3, 4, 6',
 			'trio' => '1, 2, 3, 4, 6',//count trio: 5
+			'diff' => '5',//count diff: 1
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 80,
 		'qin amount' => 201,
@@ -63,12 +63,12 @@ return [
 		'favorites' => '3, 12',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '7, 5, 3, 6',
-			'diff' => '1, 2, 3, 5, 6, 7, 10, 11, 12, 13, 14',//count diff: 11
-			'inter' => '3, 12',//count inter: 2
 		'suggestions' => [
 			'win' => '9',
 			'qin' => '8, 9',
 			'trio' => '4, 8, 9',//count trio: 3
+			'diff' => '1, 2, 3, 5, 6, 7, 10, 11, 12, 13, 14',//count diff: 11
+			'inter' => '3, 12',//count inter: 2
 		],
 		'win amount' => 317,
 		'qin amount' => 3218,
@@ -91,12 +91,12 @@ return [
 		'favorites' => '1, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '13, 1, 10, 8',
-			'diff' => '5, 6, 8, 9, 11, 12, 13, 14',//count diff: 8
-			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '1, 10',
 			'qin' => '1, 2, 4, 10',
 			'trio' => '1, 2, 3, 4, 7, 10',//count trio: 6
+			'diff' => '5, 6, 8, 9, 11, 12, 13, 14',//count diff: 8
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 57.5,
 		'qin amount' => 75.5,
@@ -145,12 +145,12 @@ return [
 		'favorites' => '2, 4',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'official win' => '9, 6, 4, 1',
-			'diff' => '3, 5, 6, 7, 8, 9, 10, 11',//count diff: 8
-			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '4',
 			'qin' => '1, 4',
 			'trio' => '1, 2, 4',//count trio: 3
+			'diff' => '3, 5, 6, 7, 8, 9, 10, 11',//count diff: 8
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 111.5,
 		'qin amount' => 476,
@@ -173,12 +173,12 @@ return [
 		'favorites' => '1, 5, 6',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '1, 5, 3, 11',
-			'diff' => '7, 13, 14',//count diff: 3
-			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 3, 5, 6, 10, 12',
 			'qin' => '1, 2, 3, 4, 5, 6, 8, 10, 11, 12',
 			'trio' => '1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12',//count trio: 11
+			'diff' => '7, 13, 14',//count diff: 3
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 26,
 		'qin amount' => 38.5,
@@ -201,12 +201,12 @@ return [
 		'favorites' => '4, 7, 8',
 		'runners' => '1, 2, 3, 4, 6, 7, 8',
 		'official win' => '4, 8, 1, 3',
-			'diff' => '1',//count diff: 1
-			'inter' => '',//count inter: 0
 		'suggestions' => [
 			'win' => '2, 6',
 			'qin' => '2, 3, 6, 7, 8',
 			'trio' => '2, 3, 4, 6, 7, 8',//count trio: 6
+			'diff' => '1',//count diff: 1
+			'inter' => '',//count inter: 0
 		],
 		'win amount' => 23.5,
 		'qin amount' => 35,
@@ -284,12 +284,12 @@ return [
 		'favorites' => '4, 6, 7, 13',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'official win' => '14, 7, 6, 4',
-			'diff' => '2, 3, 5, 7, 10, 13, 14',//count diff: 7
-			'inter' => '7, 13',//count inter: 2
 		'suggestions' => [
 			'win' => '1, 4, 12',
 			'qin' => '1, 4, 8, 9, 11, 12',
 			'trio' => '1, 4, 6, 8, 9, 11, 12',//count trio: 7
+			'diff' => '2, 3, 5, 7, 10, 13, 14',//count diff: 7
+			'inter' => '7, 13',//count inter: 2
 		],
 		'win amount' => 86.5,
 		'qin amount' => 468.5,
